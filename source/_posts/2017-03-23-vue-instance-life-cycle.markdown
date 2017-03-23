@@ -16,6 +16,9 @@ Vue的生命周期钩子有:
 7. `beforeDestroy`  
 8. `destroyed`  
 9. `activated`  
-10. `deactivated`
-  
-9和10没有在官方入门文档中出现，在Vue的配置文件中看到，暂不清楚具体意义  
+10. `deactivated`  
+
+![Vue实例生命周期](https://cn.vuejs.org/images/lifecycle.png)
+
+`activated`: keep-alive 组件激活时调用,在服务器端渲染期间不被调用。   
+`deactivated`: keep-alive 组件停用时调用,在服务器端渲染期间不被调用。  

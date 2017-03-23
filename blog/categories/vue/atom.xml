@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Aiyanxu]]></title>
-  <link href="http://qingyan1990.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Vue | Aiyanxu]]></title>
+  <link href="http://qingyan1990.github.io/blog/categories/vue/atom.xml" rel="self"/>
   <link href="http://qingyan1990.github.io/"/>
   <updated>2017-03-23T13:54:52+08:00</updated>
   <id>http://qingyan1990.github.io/</id>

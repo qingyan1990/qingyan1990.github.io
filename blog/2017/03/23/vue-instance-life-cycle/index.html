@@ -5,12 +5,21 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - Aiyanxu</title>
+  <title>Vue Instance Life Cycle - Aiyanxu</title>
   <meta name="author" content="qingyan">
 
   
-  <meta name="description" content=" Blog Archive 2017 Vue Instance Life Cycle
-Mar 23 2017 posted in vue Recent Posts Vue Instance Life Cycle ">
+  <meta name="description" content="Vue的生命周期钩子有:
+1. beforeCreate
+2. created
+3. beforeMount
+4. mounted
+5. beforeUpdate
+6. updated
+7. beforeDestroy
+8. destroyed
+9. activated
+10. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +28,7 @@ Mar 23 2017 posted in vue Recent Posts Vue Instance Life Cycle ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://qingyan1990.github.io/blog/archives/">
+  <link rel="canonical" href="http://qingyan1990.github.io/blog/2017/03/23/vue-instance-life-cycle/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Aiyanxu" type="application/atom+xml">
@@ -65,35 +74,81 @@ Mar 23 2017 posted in vue Recent Posts Vue Instance Life Cycle ">
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    
+      <h1 class="entry-title">Vue Instance Life Cycle</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2017-03-23T13:30:27+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2017</span></span> <span class='time'>1:30 pm</span></time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives">
 
 
+<div class="entry-content"><p>Vue的生命周期钩子有:<br/>
+1. <code>beforeCreate</code><br/>
+2. <code>created</code><br/>
+3. <code>beforeMount</code><br/>
+4. <code>mounted</code><br/>
+5. <code>beforeUpdate</code><br/>
+6. <code>updated</code><br/>
+7. <code>beforeDestroy</code><br/>
+8. <code>destroyed</code><br/>
+9. <code>activated</code><br/>
+10. <code>deactivated</code></p>
 
-  
-  <h2>2017</h2>
+<p><img src="https://cn.vuejs.org/images/lifecycle.png" alt="Vue实例生命周期" /></p>
 
-<article>
-  
-<h1><a href="/blog/2017/03/23/vue-instance-life-cycle/">Vue Instance Life Cycle</a></h1>
-<time datetime="2017-03-23T13:30:27+08:00" pubdate><span class='month'>Mar</span> <span class='day'>23</span> <span class='year'>2017</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/vue/'>vue</a></span>
-</footer>
-
-
-</article>
-
+<p><code>activated</code>: keep-alive 组件激活时调用,在服务器端渲染期间不被调用。 <br/>
+<code>deactivated</code>: keep-alive 组件停用时调用,在服务器端渲染期间不被调用。</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">qingyan</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2017-03-23T13:30:27+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2017</span></span> <span class='time'>1:30 pm</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/vue/'>vue</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+      
+    </p>
+  </footer>
 </article>
 
 </div>

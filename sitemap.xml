@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://qingyan1990.github.io/blog/2017/03/24/vue-directives/</loc>
+<lastmod>2017-03-24T14:52:46+08:00</lastmod>
+</url>
+<url>
 <loc>http://qingyan1990.github.io/blog/2017/03/23/vue-instance-life-cycle/</loc>
 <lastmod>2017-03-23T13:30:27+08:00</lastmod>
 </url>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Vue | Aiyanxu]]></title>
   <link href="http://qingyan1990.github.io/blog/categories/vue/atom.xml" rel="self"/>
   <link href="http://qingyan1990.github.io/"/>
-  <updated>2017-03-23T13:54:52+08:00</updated>
+  <updated>2017-03-24T15:11:25+08:00</updated>
   <id>http://qingyan1990.github.io/</id>
   <author>
     <name><![CDATA[qingyan]]></name>
@@ -12,6 +12,46 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Vue Directives]]></title>
+    <link href="http://qingyan1990.github.io/blog/2017/03/24/vue-directives/"/>
+    <updated>2017-03-24T14:52:46+08:00</updated>
+    <id>http://qingyan1990.github.io/blog/2017/03/24/vue-directives</id>
+    <content type="html"><![CDATA[<p><code>v-text</code></p>
+
+<p>``` html
+<span v-text="msg"></span></p>
+
+<!-- 和下面的一样 -->
+
+
+<p><span></span>
+```</p>
+
+<p><code>v-html</code> 更新元素的innerHTML</p>
+
+<p><code>v-show</code> 根据表达式之真假值，切换元素的 display CSS 属性。</p>
+
+<p><code>v-if</code> 根据表达式的值的真假条件渲染元素。在切换时元素及它的数据绑定 / 组件被销毁并重建。如果元素是<code>&lt;template&gt;</code>，将提出它的内容作为条件块。</p>
+
+<p><code>v-else</code> <code>v-else-if</code></p>
+
+<p><code>v-for</code></p>
+
+<p><code>v-on</code></p>
+
+<p><code>v-bind</code></p>
+
+<p><code>v-model</code></p>
+
+<p><code>v-pre</code> 跳过这个元素和它的子元素的编译过程。可以用来显示原始 Mustache 标签。跳过大量没有指令的节点会加快编译。</p>
+
+<p><code>v-cloak</code></p>
+
+<p><code>v-once</code></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Vue Instance Life Cycle]]></title>
